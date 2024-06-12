@@ -1,0 +1,29 @@
+body{
+    background-color: #ffffff !important;
+    color: #282626;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #282626;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Hover effect */
+    color: #6b7279; /* Change text color on hover */
+}
